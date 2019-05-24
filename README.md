@@ -1,4 +1,4 @@
-# Official [KiCon 2019](https://kicad-kicon.com/) badge (firmware)
+# TOASTER SCREENSAVER [KiCon 2019](https://kicad-kicon.com/) badge (firmware)
 
 _(hardware design is in another [repository](https://github.com/orsonmmz/kicon19-badge-hw))_
 
@@ -9,6 +9,8 @@ _(hardware design is in another [repository](https://github.com/orsonmmz/kicon19
 * Scope (analog data acquisition and display)
 * Command interface (I/O interfaces controlled over USB; Python library available)
 * USB-UART adapter
+* Toaster screensaver
+  * Some of the other features were deleted to make space for this and I don't remember which ones but I just want to commit this so I don't lose it
 
 ## User manual
 
