@@ -21,6 +21,7 @@
 #include "buttons.h"
 #include "io_capture.h"
 #include "logic_analyzer.h"
+#include "screensaver.h"
 #include "udc.h"
 #include "udi_cdc.h"
 #include "commands.h"
@@ -72,7 +73,8 @@ static void init_system(void)
     spi_init(1000000, 0);
     SSD1306_init();
     ioc_init();
-    la_init();
+    //la_init();
+    screensaver_init();
     udc_start();
 
     led_blink(LED2, 4);

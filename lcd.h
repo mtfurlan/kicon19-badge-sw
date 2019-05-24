@@ -105,6 +105,8 @@ void SSD1306_setString(uint8_t x, uint8_t pageIndex, const char *string,
  */
 void SSD1306_drawBitmap(uint8_t x0, uint8_t y0, const uint8_t *bitmap,
         uint8_t width, uint8_t height);
+void SSD1306_drawBitmapColor(uint8_t x0, uint8_t y0, const uint8_t *bitmap,
+        uint8_t width, uint8_t height, color_t color);
 
 /**
  * Blocking call that draws a page using the provided data.

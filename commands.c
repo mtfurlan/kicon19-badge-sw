@@ -194,9 +194,9 @@ int cmd_try_execute(void)
             ret = cmd_execute_normal();
             break;
 
-        case CMD_SUMP:
-            ret = cmd_sump(cmd_buf, cmd_buf_idx);
-            break;
+        //case CMD_SUMP:
+        //    ret = cmd_sump(cmd_buf, cmd_buf_idx);
+        //    break;
     }
 
     if (ret) {

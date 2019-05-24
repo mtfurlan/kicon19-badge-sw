@@ -136,6 +136,7 @@ menu_list_t menu_scope = {
 
 application_t app_command = { "Command interface", app_command_func };
 
+application_t app_screensaver = { "Screensaver", app_screensaver_func };
 
 application_t app_uart = { "RUN", app_uart_func };
 
@@ -161,8 +162,9 @@ menu_list_t menu_uart = {
 menu_list_t main_menu = {
     "Main menu", 0,
     {
-       { APP,       { .app     = &app_la_usb } },
-       { SUBMENU,   { .submenu = &menu_la_lcd } },
+       { APP,       { .app     = &app_screensaver } },
+       //{ APP,       { .app     = &app_la_usb } },
+       //{ SUBMENU,   { .submenu = &menu_la_lcd } },
        { SUBMENU,   { .submenu = &menu_scope } },
        { APP,       { .app     = &app_command } },
        { SUBMENU,   { .submenu = &menu_uart } },

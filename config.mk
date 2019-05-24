@@ -56,7 +56,7 @@ CSRCS = \
        buttons.c \
        commands.c \
        io_capture.c \
-       logic_analyzer.c \
+       screensaver.c \
        usb_handlers.c \
        lcd.c \
        led.c \
@@ -86,6 +86,8 @@ CSRCS = \
        sam/utils/cmsis/sam4s/source/templates/gcc/startup_sam4s.c \
        sam/utils/cmsis/sam4s/source/templates/system_sam4s.c \
        sam/utils/syscalls/gcc/syscalls.c                  \
+
+       #logic_analyzer.c \
 
 # List of assembler source files.
 ASSRCS =
